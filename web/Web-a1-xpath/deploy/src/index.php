@@ -811,6 +811,8 @@
 </div>
 	</div>	<!-- responsive_page_content -->
 
+	<!-- <a href="/index.php/src/">Исходный код</a> -->
+
 </div>	<!-- responsive_page_frame -->
 </body>
 </html>
