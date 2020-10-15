@@ -407,6 +407,7 @@
 													Больше популярных меток...												</a>
 																					</div>
 										<!-- Software third column -->
+										<!-- <a href="/index.php/src/">Look_here</a> -->
 
 																					<div class="popup_menu">
 												<div class="popup_menu_subheader">Программы для скрипт кидди</div>
@@ -811,7 +812,7 @@
 </div>
 	</div>	<!-- responsive_page_content -->
 
-	<!-- <a href="/index.php/src/">Исходный код</a> -->
+	
 
 </div>	<!-- responsive_page_frame -->
 </body>
