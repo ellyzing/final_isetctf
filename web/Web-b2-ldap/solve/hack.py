@@ -1,4 +1,4 @@
-# python3 sploit.py <ip> <port> 
+# python3 hack.py <ip> <port> 
 import requests, string, sys
 
 HOST = sys.argv[1]
