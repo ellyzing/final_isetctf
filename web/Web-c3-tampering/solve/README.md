@@ -108,6 +108,12 @@ AuthUserFile /usr/local/etc/httpd/users
 require group staff
 ```
 
+**References**
+- [1](http://www.mkit.com.ar/labs/htexploit/) – HTExploit Tool
+- [2](www.kernelpanik.org/docs/kernelpanik/bme.eng.pdf) – Original htaccess Misconfiguration Attack Methods
+- [3](https://www.aspectsecurity.com/research/aspsec_presentations/download-bypassing-web-authentication-and-authorization-with-http-verb-tampering/) – HEAD Bypass
+- [4](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) – RFC HTTP/1.1 HTTP Methods
+
 **Флаг:**
 
 > flag{wh47_15_4_H77P_v3r8_74mP3R1n9}
