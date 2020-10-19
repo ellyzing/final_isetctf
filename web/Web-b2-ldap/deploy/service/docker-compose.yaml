@@ -9,6 +9,11 @@ services:
       SECRET_KEY: "passpasswordlol013133701lolpasswordpass"
     depends_on:
       - openldap
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 4GB
 
   openldap:
     image: 'dinkel/openldap'
