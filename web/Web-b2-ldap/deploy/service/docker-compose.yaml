@@ -13,7 +13,7 @@ services:
       resources:
         limits:
           cpus: '0.5'
-          memory: 4GB
+          memory: 1GB
 
   openldap:
     image: 'dinkel/openldap'
