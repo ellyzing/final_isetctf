@@ -14,7 +14,7 @@ services:
       resources:
         limits:
           cpus: '0.5'
-          memory: 4GB
+          memory: 512MB
 
 networks:
   custom_network_xpath:
